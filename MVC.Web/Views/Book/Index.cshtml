@@ -1,0 +1,60 @@
+﻿@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.10.1/bootstrap-table.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.10.1/bootstrap-table.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.10.1/locale/bootstrap-table-zh-CN.min.js"></script>
+<h2>Ajax调用</h2>
+<table id="table"
+       data-show-export="true"
+       data-pagination="true"></table>
+<script type="text/javascript">
+    $(function () {
+        $.getJSON('@Url.Action("BookList","Book")', null, function (msg) {
+            $("#table").bootstrapTable({
+                columns: [{
+                    field: 'BookNo',
+                    title: '图书编号'
+                }, {
+                    field: 'BookName',
+                    title: '书名'
+                }, {
+                    field: 'BookPrice',
+                    title: '图书价格'
+                }, {
+                    field: 'BookNum',
+                    title: '图书数量'
+                }], data: msg
+            });
+        });
+
+        @*$.ajax({
+            type: 'POST',
+            url: '@Url.Action("BookList","Book")',
+            dataType: 'json',
+            success: function (msg) {
+                $("#table").bootstrapTable({
+                columns: [{
+                    field: 'BookName',
+                    title: '书名'
+                }, {
+                    field: 'BookNo',
+                    title: '图书编号'
+                }, {
+                    field: 'BookPrice',
+                    title: '图书价格'
+                }, {
+                    field: 'BookNum',
+                    title: '图书数量'
+                }],data:msg
+            });
+            },
+            error:function(){alert('error');}
+        });*@
+    });
+
+
+
+
+</script>

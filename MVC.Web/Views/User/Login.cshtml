@@ -1,0 +1,32 @@
+﻿@{
+    ViewBag.Title = "Login";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@using (Html.BeginForm("LoginUrl", "User", FormMethod.Post))
+{
+    <div style="margin: 0 auto; width: 500px; height: 300px">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h1 class="panel-title">欢迎使用</h1>
+            </div>
+            <div class="panel-body">
+                <table class="table table-bordered">
+                    <tr>
+                        <td>用户名:</td>
+                        <td><input type="text" name="userName"/></td>
+                    </tr>
+                    <tr>
+                        <td>密码:</td>
+                        <td><input type="password" name="userPwd"/></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" align="right">
+                            <button type="submit"  class="btn btn-primary">登录</button>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+}

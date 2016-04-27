@@ -1,0 +1,4 @@
+D:\Workspace\MVC.Demo\Demo.Other\bin\Debug\Demo.Other.exe
+D:\Workspace\MVC.Demo\Demo.Other\bin\Debug\Demo.Other.pdb
+D:\Workspace\MVC.Demo\Demo.Other\obj\Debug\Demo.Other.exe
+D:\Workspace\MVC.Demo\Demo.Other\obj\Debug\Demo.Other.pdb

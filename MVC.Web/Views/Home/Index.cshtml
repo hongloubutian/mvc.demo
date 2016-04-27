@@ -1,0 +1,43 @@
+﻿@model IEnumerable<MVC.Model.BookMark>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@using (Html.BeginForm())
+{
+    <div style="margin: 0 auto; width: 800px">
+        <h2>MVC调用</h2>
+        <div class="btn btn-group">
+            <a class="btn btn-info" href="@Url.Action("Create", "Home")">
+                <span class="glyphicon glyphicon-edit"></span>&nbsp;新增
+            </a>
+        </div>
+        <table class="table table-bordered table-hover" style="width: 800px; margin: 0 auto">
+            <thead>
+            <tr>
+                <th>编号</th>
+                <th>书名</th>
+                <th>价格</th>
+                <th>数目</th>
+                <th></th>
+            </tr>
+            </thead>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@Html.DisplayFor(modelItem => item.BookNo)</td>
+                    <td>@Html.DisplayFor(modelItem => item.BookName)</td>
+                    <td>@Html.DisplayFor(modelItem => item.BookPrice)</td>
+                    <td>@Html.DisplayFor(modelItem => item.BookNum)</td>
+                    <td>
+                        @Html.ActionLink("编辑", "Edit", "Home", new {id = item.BookMarkId}, new {@class = "btn btn-primary"})&nbsp;
+                        @Html.ActionLink("删除", "Delete", "Home", new {id = item.BookMarkId}, new {@class = "btn btn-danger"})
+                    </td>
+                </tr>
+            }
+        </table>
+    </div>
+}
+

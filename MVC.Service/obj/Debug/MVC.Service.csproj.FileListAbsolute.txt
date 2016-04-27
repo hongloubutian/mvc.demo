@@ -1,0 +1,16 @@
+D:\Workspace\MVC.Demo\MVC.Service\bin\Debug\MVC.Service.dll.config
+D:\Workspace\MVC.Demo\MVC.Service\bin\Debug\MVC.Service.dll
+D:\Workspace\MVC.Demo\MVC.Service\bin\Debug\MVC.Service.pdb
+D:\Workspace\MVC.Demo\MVC.Service\bin\Debug\EntityFramework.dll
+D:\Workspace\MVC.Demo\MVC.Service\bin\Debug\EntityFramework.SqlServer.dll
+D:\Workspace\MVC.Demo\MVC.Service\bin\Debug\MVC.DataLib.dll
+D:\Workspace\MVC.Demo\MVC.Service\bin\Debug\MVC.Model.dll
+D:\Workspace\MVC.Demo\MVC.Service\bin\Debug\MVC.Framework.dll
+D:\Workspace\MVC.Demo\MVC.Service\bin\Debug\MVC.DataLib.pdb
+D:\Workspace\MVC.Demo\MVC.Service\bin\Debug\MVC.Model.pdb
+D:\Workspace\MVC.Demo\MVC.Service\bin\Debug\EntityFramework.xml
+D:\Workspace\MVC.Demo\MVC.Service\bin\Debug\EntityFramework.SqlServer.xml
+D:\Workspace\MVC.Demo\MVC.Service\bin\Debug\MVC.Framework.pdb
+D:\Workspace\MVC.Demo\MVC.Service\obj\Debug\MVC.Service.csprojResolveAssemblyReference.cache
+D:\Workspace\MVC.Demo\MVC.Service\obj\Debug\MVC.Service.dll
+D:\Workspace\MVC.Demo\MVC.Service\obj\Debug\MVC.Service.pdb

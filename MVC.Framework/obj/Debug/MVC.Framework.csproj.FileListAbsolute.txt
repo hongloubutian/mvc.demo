@@ -1,0 +1,9 @@
+D:\Workspace\MVC.Demo\MVC.Framework\bin\Debug\MVC.Framework.dll.config
+D:\Workspace\MVC.Demo\MVC.Framework\bin\Debug\MVC.Framework.dll
+D:\Workspace\MVC.Demo\MVC.Framework\bin\Debug\MVC.Framework.pdb
+D:\Workspace\MVC.Demo\MVC.Framework\bin\Debug\EntityFramework.dll
+D:\Workspace\MVC.Demo\MVC.Framework\bin\Debug\EntityFramework.SqlServer.dll
+D:\Workspace\MVC.Demo\MVC.Framework\bin\Debug\EntityFramework.xml
+D:\Workspace\MVC.Demo\MVC.Framework\bin\Debug\EntityFramework.SqlServer.xml
+D:\Workspace\MVC.Demo\MVC.Framework\obj\Debug\MVC.Framework.dll
+D:\Workspace\MVC.Demo\MVC.Framework\obj\Debug\MVC.Framework.pdb

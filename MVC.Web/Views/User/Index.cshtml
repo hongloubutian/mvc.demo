@@ -1,0 +1,13 @@
+﻿@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+       
+}
+
+@{
+    if (Session["userinfo"] != null)
+    {
+        string userinfo = Session["userinfo"].ToString();
+           <h2>@userinfo</h2>
+    }
+}
